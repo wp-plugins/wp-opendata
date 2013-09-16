@@ -1,0 +1,4 @@
+/* When using the Latest Custom Post Type Updates widget ( http://wordpress.org/extend/plugins/latest-custom-post-type-updates/ ) this CSS will reset the h4 so all widgets look equal */
+h4.tm_lcptu_post_title {
+	font-weight: normal;
+}

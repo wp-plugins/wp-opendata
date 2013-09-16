@@ -1,0 +1,1015 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP OpenData v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-09-12 14:11:10+0000\n"
+"Last-Translator: opendatademo <marthijn+opendatademo@oxyva.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: admin.php:23
+#: wp-opendata.php:0
+#@ wp-opendata-text
+msgid "WP OpenData"
+msgstr "WP OpenData"
+
+#: admin.php:87
+#@ wp-opendata-text
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: admin.php:95
+#@ wp-opendata-text
+msgid "Opendata settings"
+msgstr "Opendata instellingen"
+
+#: admin.php:140
+#: admin.php:144
+#@ wp-opendata-text
+msgid "E-mail me whenever"
+msgstr "Stuur een e-mail indien"
+
+#: admin.php:148
+#@ wp-opendata-text
+msgid "A new dataset or project is waiting for moderation"
+msgstr "Een nieuwe dataset of project gemodereerd moet worden"
+
+#: admin.php:106
+#: admin.php:110
+#@ wp-opendata-text
+msgid "Search options"
+msgstr "Zoek opties"
+
+#: admin.php:114
+#@ wp-opendata-text
+msgid "Include datasets"
+msgstr "Datasets opnemen"
+
+#: admin.php:119
+#@ wp-opendata-text
+msgid "Include projects"
+msgstr "Projecten opnemen"
+
+#: admin.php:125
+#: admin.php:129
+#@ wp-opendata-text
+msgid "Capabilities"
+msgstr "Capaciteiten"
+
+#: admin.php:133
+#@ wp-opendata-text
+msgid "Contributors allowed to upload media"
+msgstr "Inzenders zijn bevoegd media te uploaden"
+
+#: admin.php:135
+#@ wp-opendata-text
+msgid "When checked contributors have permission to upload files to your WordPress installation!"
+msgstr "Indien aangevinkt hebben inzenders de bevoegdheid bestanden te uploaden naar je WordPress installatie!"
+
+#: admin.php:154
+#: admin.php:158
+#@ wp-opendata-text
+msgid "Front page"
+msgstr "Voorpagina"
+
+#: admin.php:162
+#@ wp-opendata-text
+msgid "Include datasets and projects"
+msgstr "Neem datasets en projecten op"
+
+#: admin.php:164
+#@ wp-opendata-text
+msgid "When checked not only blog posts are shown on the front page, but datasets and projects as well."
+msgstr "Indien aangevinkt worden niet alleen blog berichten op de voorpagina getoond, maar ook de datasets en projecten."
+
+#: admin.php:169
+#: admin.php:173
+#@ wp-opendata-text
+msgid "Post title"
+msgstr "Bericht titel"
+
+#: admin.php:177
+#@ wp-opendata-text
+msgid "Add title prefix \"Dataset:\" and \"Project:\""
+msgstr "Voeg het voorvoegsel \"Dataset:\" en  \"Project:\" toe"
+
+#: admin.php:179
+#@ wp-opendata-text
+msgid "E.g. \"My image dataset\" will become \"Dataset: My image dataset\"."
+msgstr "Bijv. \"Mijn afbeeldingen dataset\" wordt \"Dataset: Mijn afbeeldingen dataset\"."
+
+#: admin.php:184
+#: admin.php:188
+#@ wp-opendata-text
+msgid "Nav menu"
+msgstr "Nav menu"
+
+#: admin.php:192
+#@ wp-opendata-text
+msgid "Add \"Datasets\" menu item"
+msgstr "Voeg het \"Dataset\" menu toe"
+
+#: admin.php:197
+#@ wp-opendata-text
+msgid "Add \"Projects\" menu item"
+msgstr "Voeg het \"Project\" menu toe"
+
+#: admin.php:199
+#@ wp-opendata-text
+msgid "When not using the theme's menu editor this will add datasets and/or projects to the navigation menu."
+msgstr "Indien er geen gebruik wordt gemaakt van de menu editor van het thema worden datasets en projecten aan het navigatie menu toegevoegd."
+
+#: admin.php:204
+#: admin.php:208
+#@ wp-opendata-text
+msgid "Content filter"
+msgstr "Inhoud filter"
+
+#: admin.php:212
+#@ wp-opendata-text
+msgid "Show metadata of the datasets and projects"
+msgstr "Geef de metadata van datasets en projecten weer"
+
+#: admin.php:214
+#@ wp-opendata-text
+msgid "When checked the metadata section will be inserted automatically on top of the dataset or project."
+msgstr "Indien aangevinkt zal de metadata automatisch toegevoegd worden bovenaan een dataset of project."
+
+#: admin.php:218
+#@ wp-opendata-text
+msgid "Show list of projects"
+msgstr "Geef lijst van projecten weer"
+
+#: admin.php:220
+#@ wp-opendata-text
+msgid "The list of (related) projects will be inserted automatically on the bottom of a dataset page."
+msgstr "De lijst van (gerelateerde) projecten zal automatisch toegevoegd worden onderaan een dataset pagina."
+
+#: admin.php:225
+#@ wp-opendata-text
+msgid "Layout"
+msgstr "Layout"
+
+#: admin.php:229
+#: admin.php:233
+#@ wp-opendata-text
+msgid "Use WP OpenData stylesheet"
+msgstr "Gebruik het WP OpenData stylesheet"
+
+#: admin.php:235
+#@ wp-opendata-text
+msgid "This stylesheet will change the layout of HTML definition lists (DL, DT and DD) used to display metadata for datasets and projects."
+msgstr "Deze stylesheet zal de weergave van de HTML definitie lijst (DL, DT en DD) veranderen zodat metadata beter wordt weergegeven bij datasets en projecten."
+
+#: admin.php:269
+#@ default
+msgid "Save Changes"
+msgstr ""
+
+#: admin.php:277
+#@ wp-opendata-text
+msgid "Export"
+msgstr "Exporteren"
+
+#: admin.php:281
+#@ wp-opendata-text
+msgid "Export datasets to XML"
+msgstr "Exporteer datasets naar XML"
+
+#: admin.php:296
+#@ wp-opendata-text
+msgid "Dataset meta information"
+msgstr "Dataset meta informatie"
+
+#: admin.php:305
+#@ wp-opendata-text
+msgid "Project meta information"
+msgstr "Project meta informatie"
+
+#: admin.php:350
+#: wp-opendata.php:506
+#@ wp-opendata-text
+msgid "License metadata"
+msgstr "Licentie metadata"
+
+#: admin.php:352
+#: admin.php:360
+#@ wp-opendata-text
+msgctxt "license"
+msgid "N/A"
+msgstr "NVT"
+
+#: admin.php:358
+#: wp-opendata.php:511
+#@ wp-opendata-text
+msgid "License content"
+msgstr "Licentie inhoud"
+
+#: admin.php:366
+#: wp-opendata.php:516
+#@ wp-opendata-text
+msgid "Data download URL"
+msgstr "Data download URL"
+
+#: admin.php:375
+#: admin.php:385
+#: admin.php:395
+#@ wp-opendata-text
+msgid "External project name"
+msgstr "Naam van extern project"
+
+#: admin.php:378
+#: admin.php:388
+#: admin.php:398
+#@ wp-opendata-text
+msgid "External project url"
+msgstr "URL van extern project"
+
+#: admin.php:380
+#: admin.php:390
+#: admin.php:400
+#: admin.php:527
+#: admin.php:539
+#: admin.php:552
+#@ wp-opendata-text
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: admin.php:403
+#@ wp-opendata-text
+msgid "Add another project"
+msgstr "Voeg nog een project toe"
+
+#: admin.php:501
+#: wp-opendata.php:601
+#@ wp-opendata-text
+msgid "Project URL"
+msgstr "Project URL"
+
+#: admin.php:506
+#@ wp-opendata-text
+msgid "Developer name"
+msgstr "Naam ontwikkelaar"
+
+#: admin.php:511
+#@ wp-opendata-text
+msgid "Developer URL"
+msgstr "URL ontwikkelaar"
+
+#: admin.php:520
+#: admin.php:532
+#: admin.php:545
+#: wp-opendata.php:824
+#@ wp-opendata-text
+msgid "Dataset"
+msgstr "Dataset"
+
+#: admin.php:522
+#: admin.php:534
+#: admin.php:547
+#@ wp-opendata-text
+msgid "N/A"
+msgstr "NVT"
+
+#: admin.php:555
+#@ wp-opendata-text
+msgid "Add another dataset"
+msgstr "Voeg nog een dataset toe"
+
+#: admin.php:644
+#, php-format
+#@ wp-opendata-text
+msgid "[%1$s] Please moderate: \"%2$s\""
+msgstr "[%1$s] Modereer: \"%2$s\""
+
+#: admin.php:647
+#, php-format
+#@ wp-opendata-text
+msgid "A new post #%1$s \"%2$s\" is waiting for your approval"
+msgstr "Een nieuw bericht #%1$s \"%2$s\" staat klaar om goedgekeurd te worden"
+
+#: admin.php:650
+#, php-format
+#@ wp-opendata-text
+msgid "Author: %1$s"
+msgstr "Auteur: %1$s"
+
+#: admin.php:651
+#, php-format
+#@ wp-opendata-text
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: admin.php:653
+#, php-format
+#@ wp-opendata-text
+msgid "To approve this post, visit: %s"
+msgstr "Om het bericht goed te keuren, ga naar: %s"
+
+#: admin.php:655
+#, php-format
+#@ wp-opendata-text
+msgid "Currently %s post is waiting for approval. Please visit the administration panel:"
+msgstr "Op dit moment is er %s bericht nog niet gemodereerd. Ga naar het administratie paneel:"
+
+#: admin.php:659
+#, php-format
+#@ wp-opendata-text
+msgid "Currently %s posts are waiting for approval. Please visit the administration panel:"
+msgstr "Op dit moment zijn er %s berichten nog niet gemodereerd. Ga naar het administratiepaneel:"
+
+#: templates/content-dataset.php:11
+#@ wp-opendata-text
+msgid "Featured dataset"
+msgstr "Uitgelichte dataset"
+
+#: templates/content-dataset.php:20
+#: templates/content-project.php:20
+#, php-format
+#@ wp-opendata-text
+msgid "Permalink to %s"
+msgstr "Permalink naar %s"
+
+#: templates/content-dataset.php:25
+#: templates/content-project.php:25
+#@ wp-opendata-text
+msgid "Leave a reply"
+msgstr "Laat een reactie achter"
+
+#: templates/content-dataset.php:25
+#: templates/content-project.php:25
+#@ wp-opendata-text
+msgid "1 Reply"
+msgstr "1 Reactie"
+
+#: templates/content-dataset.php:25
+#: templates/content-project.php:25
+#@ wp-opendata-text
+msgid "% Replies"
+msgstr "% Reacties"
+
+#: templates/content-dataset.php:37
+#: templates/content-project.php:37
+#@ wp-opendata-text
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lees verder <span class=\"meta-nav\">&rarr;</span>"
+
+#: templates/content-dataset.php:39
+#: templates/content-project.php:38
+#@ wp-opendata-text
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: templates/content-dataset.php:45
+#: templates/content-project.php:44
+#@ wp-opendata-text
+msgid "Edit"
+msgstr "Bewerken"
+
+#: templates/content-dataset.php:52
+#: templates/content-project.php:51
+#, php-format
+#@ wp-opendata-text
+msgid "About %s"
+msgstr "Over %s"
+
+#: templates/content-dataset.php:56
+#: templates/content-project.php:55
+#, php-format
+#@ wp-opendata-text
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Geef alle berichten weer van %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: templates/content-project.php:11
+#@ wp-opendata-text
+msgid "Featured project"
+msgstr "Uitgelicht project"
+
+#: templates/single-dataset.php:23
+#: wp-opendata.php:672
+#@ wp-opendata-text
+msgid "Dataset navigation"
+msgstr "Dataset navigatie"
+
+#: templates/single-dataset.php:24
+#: templates/single-project.php:24
+#@ wp-opendata-text
+msgctxt "Previous dataset link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: templates/single-dataset.php:25
+#: templates/single-project.php:25
+#@ wp-opendata-text
+msgctxt "Next dataset link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: templates/single-project.php:23
+#@ wp-opendata-text
+msgid "Project navigation"
+msgstr "Project navigatie"
+
+#. translators: plugin header field 'PluginURI'
+#: wp-opendata.php:0
+#@ wp-opendata-text
+msgid "TBA"
+msgstr "NNB"
+
+#. translators: plugin header field 'Description'
+#: wp-opendata.php:0
+#@ wp-opendata-text
+msgid "A WordPress plugin to manage open data sets and projects based on open data."
+msgstr "Een WordPress plugin om open datasets en projecten gebaseerd op opendata te beheren."
+
+#. translators: plugin header field 'AuthorURI'
+#: wp-opendata.php:0
+#@ wp-opendata-text
+msgid "http://oxyva.nl"
+msgstr "http://oxyva.nl"
+
+#. translators: plugin header field 'Version'
+#: wp-opendata.php:0
+#@ wp-opendata-text
+msgid "1.0"
+msgstr "1.0"
+
+#: wp-opendata.php:40
+#@ wp-opendata-text
+msgctxt "license"
+msgid "Public Domain"
+msgstr "Publiek Domein"
+
+#: wp-opendata.php:41
+#@ wp-opendata-text
+msgctxt "license"
+msgid "Copyrighted"
+msgstr "Auteursrecht"
+
+#: wp-opendata.php:42
+#@ wp-opendata-text
+msgctxt "license"
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: wp-opendata.php:43
+#@ wp-opendata-text
+msgctxt "license"
+msgid "Other"
+msgstr "Andere"
+
+#: wp-opendata.php:51
+#@ wp-opendata-text
+msgid "Open data contributor"
+msgstr "Open data inzender"
+
+#: wp-opendata.php:134
+#@ wp-opendata-text
+msgctxt "post type general name"
+msgid "Datasets"
+msgstr "Datasets"
+
+#: wp-opendata.php:135
+#@ wp-opendata-text
+msgctxt "post type singular name"
+msgid "Dataset"
+msgstr "Dataset"
+
+#: wp-opendata.php:136
+#@ wp-opendata-text
+msgctxt "dataset"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: wp-opendata.php:137
+#@ wp-opendata-text
+msgid "Add New Dataset"
+msgstr "Nieuwe dataset toevoegen"
+
+#: wp-opendata.php:138
+#@ wp-opendata-text
+msgid "Edit Dataset"
+msgstr "Dataset bewerken"
+
+#: wp-opendata.php:139
+#@ wp-opendata-text
+msgid "New Dataset"
+msgstr "Nieuwe dataset"
+
+#: wp-opendata.php:140
+#@ wp-opendata-text
+msgid "All Datasets"
+msgstr "Alle datasets"
+
+#: wp-opendata.php:141
+#@ wp-opendata-text
+msgid "View Dataset"
+msgstr "Bekijk dataset"
+
+#: wp-opendata.php:142
+#@ wp-opendata-text
+msgid "Search Datasets"
+msgstr "Datasets zoeken"
+
+#: wp-opendata.php:143
+#@ wp-opendata-text
+msgid "No datasets found"
+msgstr "Geen datasets gevonden"
+
+#: wp-opendata.php:144
+#@ wp-opendata-text
+msgid "No datasets found in the Trash"
+msgstr "Geen datasets gevonden in de Prullenbak"
+
+#: wp-opendata.php:146
+#: wp-opendata.php:857
+#@ wp-opendata-text
+msgid "Datasets"
+msgstr "Datasets"
+
+#: wp-opendata.php:150
+#@ wp-opendata-text
+msgid "Manage datasets"
+msgstr "Datasets beheren"
+
+#: wp-opendata.php:165
+#@ wp-opendata-text
+msgctxt "post type general name"
+msgid "Projects"
+msgstr "Projecten"
+
+#: wp-opendata.php:166
+#@ wp-opendata-text
+msgctxt "post type singular name"
+msgid "Project"
+msgstr "Project"
+
+#: wp-opendata.php:167
+#@ wp-opendata-text
+msgctxt "project"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: wp-opendata.php:168
+#@ wp-opendata-text
+msgid "Add New Project"
+msgstr "Nieuw project toevoegen"
+
+#: wp-opendata.php:169
+#@ wp-opendata-text
+msgid "Edit Project"
+msgstr "Project bewerken"
+
+#: wp-opendata.php:170
+#@ wp-opendata-text
+msgid "New Project"
+msgstr "Nieuw project"
+
+#: wp-opendata.php:171
+#@ wp-opendata-text
+msgid "All Project"
+msgstr "Alle projecten"
+
+#: wp-opendata.php:172
+#@ wp-opendata-text
+msgid "View Project"
+msgstr "Project bekijken"
+
+#: wp-opendata.php:173
+#@ wp-opendata-text
+msgid "Search Project"
+msgstr "Project zoeken"
+
+#: wp-opendata.php:174
+#@ wp-opendata-text
+msgid "No projects found"
+msgstr "Geen projecten gevonden"
+
+#: wp-opendata.php:175
+#@ wp-opendata-text
+msgid "No projects found in the Trash"
+msgstr "Geen projecten gevonden in de Prullenbak"
+
+#: wp-opendata.php:177
+#: wp-opendata.php:863
+#: wp-opendata.php:925
+#@ wp-opendata-text
+msgid "Projects"
+msgstr "Projecten"
+
+#: wp-opendata.php:181
+#@ wp-opendata-text
+msgid "Manage projects"
+msgstr "Projecten beheren"
+
+#: wp-opendata.php:207
+#@ wp-opendata-text
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr "Categorieën"
+
+#: wp-opendata.php:208
+#@ wp-opendata-text
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Categorie"
+
+#: wp-opendata.php:209
+#@ wp-opendata-text
+msgid "Search Categories"
+msgstr "Categorieën zoeken"
+
+#: wp-opendata.php:210
+#@ wp-opendata-text
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+#: wp-opendata.php:211
+#@ wp-opendata-text
+msgid "Parent Category"
+msgstr "Hoofdcategorie"
+
+#: wp-opendata.php:212
+#@ wp-opendata-text
+msgid "Parent Category:"
+msgstr "Hoofdcategorie:"
+
+#: wp-opendata.php:213
+#@ wp-opendata-text
+msgid "Edit Category"
+msgstr "Categorie bewerken"
+
+#: wp-opendata.php:214
+#@ wp-opendata-text
+msgid "Update Category"
+msgstr "Categorie updaten"
+
+#: wp-opendata.php:215
+#@ wp-opendata-text
+msgid "Add New Category"
+msgstr "Nieuwe categorie toevoegen"
+
+#: wp-opendata.php:216
+#@ wp-opendata-text
+msgid "New Category Name"
+msgstr "Nieuwe categorie naam"
+
+#: wp-opendata.php:217
+#@ wp-opendata-text
+msgid "Categories"
+msgstr "Categorieën"
+
+#: wp-opendata.php:234
+#@ wp-opendata-text
+msgctxt "taxonomy general name"
+msgid "Data Formats"
+msgstr "Data formaten"
+
+#: wp-opendata.php:235
+#@ wp-opendata-text
+msgctxt "taxonomy singular name"
+msgid "Data Format"
+msgstr "Data formaat"
+
+#: wp-opendata.php:236
+#@ wp-opendata-text
+msgid "Search Data Formats"
+msgstr "Zoek data formaten"
+
+#: wp-opendata.php:237
+#@ wp-opendata-text
+msgid "All Data Formats"
+msgstr "Alle data formaten"
+
+#: wp-opendata.php:238
+#@ wp-opendata-text
+msgid "Parent Data Format"
+msgstr "Hoofd data formaat"
+
+#: wp-opendata.php:239
+#@ wp-opendata-text
+msgid "Parent Data Format:"
+msgstr "Hoof data formaat:"
+
+#: wp-opendata.php:240
+#@ wp-opendata-text
+msgid "Edit Data Format"
+msgstr "Data formaat bewerken"
+
+#: wp-opendata.php:241
+#@ wp-opendata-text
+msgid "Update Data Format"
+msgstr "Data formaat updaten"
+
+#: wp-opendata.php:242
+#@ wp-opendata-text
+msgid "Add New Data Format"
+msgstr "Nieuw data formaat toevoegen"
+
+#: wp-opendata.php:243
+#@ wp-opendata-text
+msgid "New Data Format Name"
+msgstr "Nieuw data formaat naam"
+
+#: wp-opendata.php:244
+#@ wp-opendata-text
+msgid "Data Formats"
+msgstr "Data formaten"
+
+#: wp-opendata.php:300
+#@ wp-opendata-text
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr "Labels"
+
+#: wp-opendata.php:301
+#@ wp-opendata-text
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr "Label"
+
+#: wp-opendata.php:302
+#@ wp-opendata-text
+msgid "Search Tags"
+msgstr "Zoek labels"
+
+#: wp-opendata.php:303
+#@ wp-opendata-text
+msgid "Popular Tags"
+msgstr "Populaire labels"
+
+#: wp-opendata.php:304
+#@ wp-opendata-text
+msgid "All Tags"
+msgstr "Alle labels"
+
+#: wp-opendata.php:307
+#@ wp-opendata-text
+msgid "Edit Tags"
+msgstr "Labels bewerken"
+
+#: wp-opendata.php:308
+#@ wp-opendata-text
+msgid "Update Tags"
+msgstr "Labels updaten"
+
+#: wp-opendata.php:309
+#@ wp-opendata-text
+msgid "Add New Tags"
+msgstr "Nieuwe label toevoegen"
+
+#: wp-opendata.php:310
+#@ wp-opendata-text
+msgid "New Tag"
+msgstr "Nieuw label"
+
+#: wp-opendata.php:311
+#@ wp-opendata-text
+msgid "Separate tags with commas"
+msgstr "Scheidt labels met een komma"
+
+#: wp-opendata.php:312
+#@ wp-opendata-text
+msgid "Add or remove tags"
+msgstr "Voeg een label toe of verwijder een label"
+
+#: wp-opendata.php:313
+#@ wp-opendata-text
+msgid "Choose from the most used tags"
+msgstr "Kies uit de meestgebruikte labels"
+
+#: wp-opendata.php:314
+#@ wp-opendata-text
+msgid "No tags found."
+msgstr "Geen labels gevonden."
+
+#: wp-opendata.php:315
+#: wp-opendata.php:536
+#: wp-opendata.php:616
+#@ wp-opendata-text
+msgid "Tags"
+msgstr "Labels"
+
+#: wp-opendata.php:333
+#@ wp-opendata-text
+msgctxt "taxonomy general name"
+msgid "Organizations/owners"
+msgstr "Organisaties/eigenaren"
+
+#: wp-opendata.php:334
+#@ wp-opendata-text
+msgctxt "taxonomy singular name"
+msgid "Organization/owner"
+msgstr "Organisatie/eigenaar"
+
+#: wp-opendata.php:335
+#@ wp-opendata-text
+msgid "Search Organizations"
+msgstr "Zoek organisaties"
+
+#: wp-opendata.php:336
+#@ wp-opendata-text
+msgid "Popular Organizations"
+msgstr "Populaire organisaties"
+
+#: wp-opendata.php:337
+#@ wp-opendata-text
+msgid "All Organizations"
+msgstr "Alle organisaties"
+
+#: wp-opendata.php:340
+#@ wp-opendata-text
+msgid "Edit Organizations"
+msgstr "Organisaties bewerken"
+
+#: wp-opendata.php:341
+#@ wp-opendata-text
+msgid "Update Organizations"
+msgstr "Organisaties updaten"
+
+#: wp-opendata.php:342
+#@ wp-opendata-text
+msgid "Add New Organizations"
+msgstr "Nieuwe organisatie toevoegen"
+
+#: wp-opendata.php:343
+#@ wp-opendata-text
+msgid "New Organization"
+msgstr "Nieuwe organisatie"
+
+#: wp-opendata.php:344
+#@ wp-opendata-text
+msgid "Separate organizations with commas"
+msgstr "Scheidt organisaties met een komma"
+
+#: wp-opendata.php:345
+#@ wp-opendata-text
+msgid "Add or remove organizations"
+msgstr "Voeg een organisatie toe of verwijder een organisatie"
+
+#: wp-opendata.php:346
+#@ wp-opendata-text
+msgid "Choose from the most used organizations"
+msgstr "Kies uit de meestgebruikte organisaties"
+
+#: wp-opendata.php:347
+#@ wp-opendata-text
+msgid "No organizations found."
+msgstr "Geen organisaties gevonden."
+
+#: wp-opendata.php:348
+#@ wp-opendata-text
+msgid "Organizations"
+msgstr "Organisaties"
+
+#: wp-opendata.php:385
+#, php-format
+#@ wp-opendata-text
+msgid "View all datasets by %s"
+msgstr "Bekijk alle datasets van %s"
+
+#: wp-opendata.php:391
+#, php-format
+#@ wp-opendata-text
+msgid "This dataset was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Deze dataset is geplaatst in %1$s met de labels %2$s op %3$s<span class=\"by-author\"> door %4$s</span>."
+
+#: wp-opendata.php:393
+#, php-format
+#@ wp-opendata-text
+msgid "This dataset was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Deze datasets is geplaatst in %1$s op %3$s<span class=\"by-author\"> door %4$s</span>."
+
+#: wp-opendata.php:395
+#, php-format
+#@ wp-opendata-text
+msgid "This dataset was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Deze dataset is geplaatst in %3$s<span class=\"by-author\"> door %4$s</span>."
+
+#: wp-opendata.php:427
+#, php-format
+#@ wp-opendata-text
+msgid "View all projects by %s"
+msgstr "Bekijk alle projecten van %s"
+
+#: wp-opendata.php:433
+#, php-format
+#@ wp-opendata-text
+msgid "This project was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Dit project is geplaatst in %1$s met labels %2$s op %3$s<span class=\"by-author\"> door %4$s</span>."
+
+#: wp-opendata.php:435
+#, php-format
+#@ wp-opendata-text
+msgid "This project was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Dit project is geplaatst in %1$s op %3$s<span class=\"by-author\"> door %4$s</span>."
+
+#: wp-opendata.php:437
+#, php-format
+#@ wp-opendata-text
+msgid "This project was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Dit project is geplaatst in %3$s<span class=\"by-author\"> door %4$s</span>."
+
+#: wp-opendata.php:486
+#: wp-opendata.php:489
+#: wp-opendata.php:492
+#: wp-opendata.php:495
+#: wp-opendata.php:565
+#: wp-opendata.php:568
+#: wp-opendata.php:571
+#@ wp-opendata-text
+msgid ", "
+msgstr ", "
+
+#: wp-opendata.php:521
+#@ wp-opendata-text
+msgid "Organization/owner"
+msgstr "Organisatie/eigenaar"
+
+#: wp-opendata.php:526
+#@ wp-opendata-text
+msgid "Data format"
+msgstr "Data formaat"
+
+#: wp-opendata.php:531
+#: wp-opendata.php:611
+#@ wp-opendata-text
+msgid "Category"
+msgstr "Categorie"
+
+#: wp-opendata.php:590
+#@ wp-opendata-text
+msgid "Developed by"
+msgstr "Ontwikkeld door"
+
+#: wp-opendata.php:606
+#@ wp-opendata-text
+msgid "Dataset used"
+msgstr "Dataset gebruikt"
+
+#: wp-opendata.php:673
+#@ wp-opendata-text
+msgid "<span class=\"meta-nav\">&larr;</span> Previous page"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vorige pagina"
+
+#: wp-opendata.php:674
+#@ wp-opendata-text
+msgid "Next page <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Volgende pagina <span class=\"meta-nav\">&rarr;</span>"
+
+#: wp-opendata.php:827
+#@ wp-opendata-text
+msgid "Project"
+msgstr "Project"
+
+#: admin.php:240
+#@ wp-opendata-text
+msgid "Sorting"
+msgstr "Sortering"
+
+#: admin.php:244
+#: admin.php:248
+#@ wp-opendata-text
+msgid "Sort datasets A-Z"
+msgstr "Sorteer datasets A-Z"
+
+#: admin.php:253
+#@ wp-opendata-text
+msgid "Sort projects A-Z"
+msgstr "Sorteer projecten A-Z"
+
+#: admin.php:255
+#@ wp-opendata-text
+msgid "When checked datasets and/or projects will be sorted alphabetically A-Z, else by default WordPress settings (usually by date in descending order)."
+msgstr "Indien aangevinkt worden datasets en/of projecten alfabetisch gesorteerd van A-Z. Anders zal dit op de standaard WordPress manier gebeuren (meestal op datum in aflopende volgorde)."
+
+#: admin.php:260
+#@ wp-opendata-text
+msgid "Default new dataset text"
+msgstr "Standaard tekst voor een nieuwe dataset"
+
+#: admin.php:263
+#@ wp-opendata-text
+msgid "Set a default text/template for a new dataset."
+msgstr "Stel een standaard tekst/template in voor een nieuwe dataset."
+
+#. translators: plugin header field 'Author'
+#: wp-opendata.php:0
+#@ wp-opendata-text
+msgid "oxyva.nl"
+msgstr "oxyva.nl"
+
