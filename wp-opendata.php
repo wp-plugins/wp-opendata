@@ -3,7 +3,7 @@
 Plugin Name: WP OpenData
 Plugin URI: http://wordpress.org/plugins/wp-opendata/
 Description: This plugin enables you to list and manage open datasets on your website. You can create a showcase of projects and apps using open data as well.
-Version: 1.0
+Version: 1.1
 Author: oxyva.nl
 Author URI: http://oxyva.nl
 License: GNU General Public License (GPL) version 3
@@ -14,7 +14,7 @@ Domain Path: /lang
 /**
  * Plugin constants
  */
-define('WP_OPENDATA_VERSION', '1.0');
+define('WP_OPENDATA_VERSION', '1.1');
 define('WP_OPENDATA', plugin_dir_url( __FILE__ ));
 define('WP_OPENDATA_TEXT_DOMAIN', 'wp-opendata-text'); // text domain of the plugin
 

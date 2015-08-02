@@ -2,8 +2,8 @@
 Contributors: marthijn1
 Tags: opendata
 Requires at least: 3.5.1
-Tested up to: 3.6.1
-Stable tag: trunk
+Tested up to: 4.2.3
+Stable tag: 1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 

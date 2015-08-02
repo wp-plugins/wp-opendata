@@ -97,7 +97,7 @@ function wp_opendata_settings() {
 				<div id="setting-error-settings_updated" class="updated settings-error"> 
 					<p><strong><?php echo $message; ?></strong></p>
 				</div>
-			<? endif; ?>			
+			<?php endif; ?>			
 			<form action="" method="post">
 			    <input type="hidden" name="opendata_settings" value="1"/>
 				<table class="form-table">
@@ -369,6 +369,11 @@ function wp_opendata_meta_box_dataset_content($post) {
         
         <?php /* repeatable fields code based on: https://gist.github.com/da1nonly/2057532 */ ?>
         
+        <hr/>
+        <p>
+        	<?php _e('Here you can enter projects (e.g. websites or apps) that use this dataset.', WP_OPENDATA_TEXT_DOMAIN) ?>
+        </p>
+        
         <?php if( $external_projects ): ?>
         	<?php foreach($external_projects as $ep) : ?>
         		<p class="external-project">
@@ -538,7 +543,7 @@ function wp_opendata_meta_box_project_content($post) {
 		          </select>
 		          <a class="remove-dataset" class="button" href="#"><?php _e('Remove', WP_OPENDATA_TEXT_DOMAIN) ?></a>
         	</p>
-        <? endif;?>
+        <?php endif;?>
         
         <?php /* empty field for jQuery */ ?>
         <p class="dataset-field empty-dataset">
